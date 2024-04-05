@@ -12,11 +12,7 @@ export default function Home() {
       <DivComponent />
       <DivComponent />
       <DivComponent />
-      <div className="links-menu">        
-        <Link className="link" href="/about">
-          Sobre
-        </Link>
-      </div>
+    
     </>
   );
 }
