@@ -15,6 +15,14 @@
   margin: 10px;
 }
 
+.post-img {
+  width: 100%;
+}
+
+.post {
+  width: 33.3%;
+}
+
 .bg-1 {
   background-color: rgb(179, 179, 179);
   padding: 10px;
