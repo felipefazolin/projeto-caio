@@ -14,6 +14,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <div className="links-menu">
+          <Link className="link" href="/">
+            Home
+          </Link>
           <Link className="link" href="/about">
             Sobre
           </Link>
