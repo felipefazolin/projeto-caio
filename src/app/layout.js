@@ -13,13 +13,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <div className="links-menu">        
-        <Link className="link" href="/about">
-          Sobre
-        </Link>
-      </div>
-        {children}
-        </body>
+        <div className="links-menu">
+          <Link className="link" href="/about">
+            Sobre
+          </Link>
+        </div>
+        <div> {children}</div>
+      </body>
     </html>
   );
 }
