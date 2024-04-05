@@ -1,6 +1,7 @@
 "use client";
 
-import DivComponent from "./components/DivComponent";
+import Link from "next/link";
+import DivComponent from "../components/DivComponent";
 
 // Aqui você monta a página Home
 export default function Home() {
@@ -11,6 +12,11 @@ export default function Home() {
       <DivComponent />
       <DivComponent />
       <DivComponent />
+      <div className="links-menu">        
+        <Link className="link" href="/about">
+          Sobre
+        </Link>
+      </div>
     </>
   );
 }
